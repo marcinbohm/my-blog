@@ -11,6 +11,7 @@ import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NavBar from './NavBar';
 import NotFoundPage from './pages/NotFoundPage';
+import Footer from './components/Footer';
 
 class App extends Component{
   render(){
@@ -27,6 +28,7 @@ class App extends Component{
               <Route component={NotFoundPage} />
             </Switch>
           </div>
+          <Footer title="Footer" description="some words"/>
         </div>
       </Router>
       
