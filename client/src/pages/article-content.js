@@ -3,7 +3,8 @@ const articles = [
         name: 'learn-react',
         title: 'The fastest way to learn React',
         content: [
-            `Welcome! Today we're going to be talking about the fastest way to learn React.`
+            `Welcome! Today we're going to be talking about the fastest way to learn React.`, 
+            `React framework is considered by many as the hardest to learn at the beggining`
         ]
     },
 
@@ -11,7 +12,7 @@ const articles = [
         name: 'what-i-do',
         title: 'Look what Im doing every day',
         content: [
-            `Welcome! Today we're going to be talking about my every day`
+            `My day is starting with good cup of coffe`
         ]
     },
 
@@ -19,7 +20,7 @@ const articles = [
         name: 'my-hobbys',
         title: 'Look what I like',
         content: [
-            `Welcome! Today we're going to be talking about my hobbys`
+            `I am not just one way set IT man. I'm interested in many things`
         ]
     },
 ];
