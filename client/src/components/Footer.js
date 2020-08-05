@@ -7,10 +7,10 @@ import Link from '@material-ui/core/Link';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body2" color="textPrimary" align="center" style={{ paddingTop: "20px" }}>
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="https://github.com/marcinbohm">
+        Marcin Bohm
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -20,7 +20,7 @@ function Copyright() {
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: "#cfe8fc",
     // marginTop: theme.spacing(8),
     padding: theme.spacing(6, 0),
   },
@@ -36,7 +36,7 @@ function StyleFooter(props) {
         <Typography variant="h6" align="center" gutterBottom>
           {title}
         </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+        <Typography variant="subtitle1" align="center" color="textPrimary" component="p">
           {description}
         </Typography>
         <Copyright />
@@ -47,7 +47,7 @@ function StyleFooter(props) {
 
 const Footer = () => {
     return(
-        <StyleFooter />
+        <StyleFooter title="Remember wear a mask!" description="Thanks for reading" />
     )
 }
 
